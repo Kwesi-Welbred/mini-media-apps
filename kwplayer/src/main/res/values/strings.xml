@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KW Player</string>
+    <string name="null_des">null</string>
+    <string name="songTitle">Son of God</string>
+    <string name="artistName">Peacemaker</string>
+    <string name="leftTime">00:00</string>
+    <string name="rightTime">00:00</string>
+    <string name="kw_player">KW PLAYER</string>
+    <string name="rock_your_world_s_music">Rock your world\'s music</string>
+</resources>

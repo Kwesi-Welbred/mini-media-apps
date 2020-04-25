@@ -1,0 +1,5 @@
+rootProject.name='MinApps'
+include ':app'
+include ':mediaplayer'
+include ':kwplayer'
+include ':pmplayer'

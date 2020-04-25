@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".WelcomeScreen">
+
+    <ImageView
+        android:id="@+id/screen_image"
+        android:layout_width="316dp"
+        android:layout_height="264dp"
+        android:src="@drawable/clapperboard_100px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/media_title"
+        android:layout_width="339dp"
+        android:layout_height="68dp"
+        android:text="@string/kw_player"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/slogan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screen_image" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="235dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="204dp"
+        android:text="@string/rock_your_world_s_music"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
